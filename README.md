@@ -13,5 +13,5 @@ optimization_project/
 ```
 Run automated tests & generate plots:
 ```bash
-python -m unittest discover -s optimization_project/tests
+python -m unittest discover -s tests
 ```
