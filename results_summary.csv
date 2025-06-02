@@ -1,0 +1,13 @@
+case,method,success,n_iter,stop_reason,final_x,final_f
+Quad-Isotropic,gd,True,2,|p| < param_tol - convergence.,"[0.0, 0.0]",0.0
+Quad-Isotropic,newton,True,2,|p| < param_tol - convergence.,"[0.0, 0.0]",0.0
+Quad-Axis,gd,False,100,max_iter exceeded,"[0.1127199710775207, 0.0008855970623381235]",0.012784220095399295
+Quad-Axis,newton,True,2,|p| < param_tol - convergence.,"[0.0, 0.0]",0.0
+Quad-Rotated,gd,False,100,max_iter exceeded,"[0.07682763084029584, 0.13062021898291368]",0.023112584192700524
+Quad-Rotated,newton,True,2,|p| < param_tol - convergence.,"[0.0, 0.0]",0.0
+Rosenbrock,gd,True,7751,|f_next - f| < obj_tol - convergence.,"[0.9998943711333962, 0.9997877059700404]",1.1267173492101773e-08
+Rosenbrock,newton,True,21,|f_next - f| < obj_tol - convergence.,"[0.9999999999999977, 0.9999999999999952]",6.668339839446365e-30
+Linear,gd,False,100,max_iter exceeded,"[-299.0, 401.0]",-2501.0
+Linear,newton,False,100,max_iter exceeded,"[-299.0, 401.0]",-2501.0
+Exp-Triangle,gd,True,29,|f_next - f| < obj_tol - convergence.,"[-0.34657288594340707, -9.767996648479826e-07]",2.559266696664345
+Exp-Triangle,newton,True,9,|p| < param_tol - convergence.,"[-0.3465735902698204, 6.806882000497908e-12]",2.5592666966582156
