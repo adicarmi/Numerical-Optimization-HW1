@@ -1,5 +1,4 @@
-
-# Numerical Optimisation – Programming Assignment, HW3
+# Numerical Optimization – Programming Assignment, HW3
 
 Directory structure:
 ```
